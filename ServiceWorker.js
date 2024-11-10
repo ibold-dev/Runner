@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-RunAwayCat-0.1";
 const contentToCache = [
     "Build/b2.loader.js",
-    "Build/b2.framework.js.gz",
-    "Build/b2.data.gz",
-    "Build/b2.wasm.gz",
+    "Build/b2.framework.js",
+    "Build/b2.data",
+    "Build/b2.wasm",
     "TemplateData/style.css"
 
 ];

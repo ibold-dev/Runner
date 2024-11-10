@@ -38,9 +38,9 @@ window.addEventListener("load", function () {
   var buildUrl = "Build";
   var loaderUrl = buildUrl + "/b2.loader.js";
   var config = {
-    dataUrl: buildUrl + "/b2.data.gz",
-    frameworkUrl: buildUrl + "/b2.framework.js.gz",
-    codeUrl: buildUrl + "/b2.wasm.gz",
+    dataUrl: buildUrl + "/b2.data",
+    frameworkUrl: buildUrl + "/b2.framework.js",
+    codeUrl: buildUrl + "/b2.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "RunAwayCat",
