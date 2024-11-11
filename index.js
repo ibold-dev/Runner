@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/b4.loader.js";
+  var loaderUrl = buildUrl + "/b3.loader.js";
   var config = {
-    dataUrl: buildUrl + "/b4.data",
-    frameworkUrl: buildUrl + "/b4.framework.js",
-    codeUrl: buildUrl + "/b4.wasm",
+    dataUrl: buildUrl + "/b3.data",
+    frameworkUrl: buildUrl + "/b3.framework.js",
+    codeUrl: buildUrl + "/b3.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "RunAwayCat",
