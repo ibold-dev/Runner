@@ -1,6 +1,6 @@
 {
-    "name": "RunAwayCat",
-    "short_name": "RunAwayCat",
+    "name": "CatProject",
+    "short_name": "CatProject",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
