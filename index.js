@@ -43,8 +43,8 @@ window.addEventListener("load", function () {
     codeUrl: buildUrl + "/Build1.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "CatProject",
-    productVersion: "1.0",
+    productName: "CatRun",
+    productVersion: "0.1",
     showBanner: unityShowBanner,
   };
 
@@ -63,7 +63,6 @@ window.addEventListener("load", function () {
     document.getElementsByTagName('head')[0].appendChild(meta);
   }
 
-  canvas.style.background = "url('" + buildUrl + "/Build1.jpg') center / cover";
   loadingBar.style.display = "block";
 
   var script = document.createElement("script");
