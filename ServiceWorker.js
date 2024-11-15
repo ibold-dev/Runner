@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-CatRun-0.1";
 const contentToCache = [
-    "Build/Build1.loader.js",
-    "Build/Build1.framework.js",
-    "Build/Build1.data",
-    "Build/Build1.wasm",
+    "Build/Build2.loader.js",
+    "Build/Build2.framework.js",
+    "Build/Build2.data",
+    "Build/Build2.wasm",
     "TemplateData/style.css"
 
 ];

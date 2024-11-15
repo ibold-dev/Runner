@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/Build1.loader.js";
+  var loaderUrl = buildUrl + "/Build2.loader.js";
   var config = {
-    dataUrl: buildUrl + "/Build1.data",
-    frameworkUrl: buildUrl + "/Build1.framework.js",
-    codeUrl: buildUrl + "/Build1.wasm",
+    dataUrl: buildUrl + "/Build2.data",
+    frameworkUrl: buildUrl + "/Build2.framework.js",
+    codeUrl: buildUrl + "/Build2.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "CatRun",
