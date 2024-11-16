@@ -1,6 +1,6 @@
 {
-    "name": "CatRun",
-    "short_name": "CatRun",
+    "name": "PetRun",
+    "short_name": "PetRun",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",

@@ -36,15 +36,15 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/Build2.loader.js";
+  var loaderUrl = buildUrl + "/AlphaBuild.loader.js";
   var config = {
-    dataUrl: buildUrl + "/Build2.data",
-    frameworkUrl: buildUrl + "/Build2.framework.js",
-    codeUrl: buildUrl + "/Build2.wasm",
+    dataUrl: buildUrl + "/AlphaBuild.data",
+    frameworkUrl: buildUrl + "/AlphaBuild.framework.js",
+    codeUrl: buildUrl + "/AlphaBuild.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "CatRun",
-    productVersion: "0.1",
+    productName: "PetRun",
+    productVersion: "1.0",
     showBanner: unityShowBanner,
   };
 
