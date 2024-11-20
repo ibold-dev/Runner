@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/build.loader.js";
+  var loaderUrl = buildUrl + "/test.loader.js";
   var config = {
-    dataUrl: buildUrl + "/build.data",
-    frameworkUrl: buildUrl + "/build.framework.js",
-    codeUrl: buildUrl + "/build.wasm",
+    dataUrl: buildUrl + "/test.data",
+    frameworkUrl: buildUrl + "/test.framework.js",
+    codeUrl: buildUrl + "/test.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Runiverse",
