@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
     codeUrl: buildUrl + "/test.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "Runiverse",
+    productName: "Pnut Racoon",
     productVersion: "1.0",
     showBanner: unityShowBanner,
   };
