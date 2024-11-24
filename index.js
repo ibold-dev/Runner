@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/build.loader.js";
+  var loaderUrl = buildUrl + "/main.loader.js";
   var config = {
-    dataUrl: buildUrl + "/build.data",
-    frameworkUrl: buildUrl + "/build.framework.js",
-    codeUrl: buildUrl + "/build.wasm",
+    dataUrl: buildUrl + "/main.data",
+    frameworkUrl: buildUrl + "/main.framework.js",
+    codeUrl: buildUrl + "/main.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Peanut Racoon",
