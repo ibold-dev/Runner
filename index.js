@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
     codeUrl: buildUrl + "/build.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "Pnut Racoon",
+    productName: "Peanut Racoon",
     productVersion: "1.0",
     showBanner: unityShowBanner,
   };
