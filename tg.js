@@ -1,9 +1,7 @@
 function getTelegramUserData() {
   const initData = window.Telegram.WebApp.initData;
-  const currentUrl = window.location.href;
-
   if (initData) {
-    return JSON.stringify({ data: initData, referredBy: currentUrl || null });
+    return JSON.stringify({ data: initData });
   } else {
     return null;
   }
